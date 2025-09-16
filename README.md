@@ -28,6 +28,26 @@ The goal is to understand user sentiment patterns, identify pain points, and hig
     - Identified top words by **(country, sentiment)**
   
 ## 📈 Results & Insights
+### Overall Sentiment Distribution
+- The majority of reviews are **positive**, but a notable portion are **negative**, often mentioning login, crashes, and notifications.
+
+### Sentiment by Country
+- **US & UK:** Similar distribution, majority positive
+- **Italy:** Higher share of negative reviews, often about access/login
+- **Finland:** Fewer reviews, but more neutral/positive
+- **Kazakhstan:** Small sample, skewed toward negative (login/verification issues)
+
+### Country-specific Themes
+#### Examples (based on top words analysis):
+- **US (negative):** *login*, *crash*, *notification*
+- **UK (positive):** *network*, *job*, *easy*
+- **Italy (negative):** *accesso*, *bug*, *annuncio*
+- **Finland (positive):** *jobs*, *useful*, *simple*
+- **Kazakhstan (negative):** *login*, *verification*
+
+#### Visuals:
+#### Sentiment Distribution
+#### Sentiment Distribution by Country
 
 ## 💡 Business Implications
 - **Login/verification issues** remain a global frustration.
@@ -52,3 +72,5 @@ pip install -r requirements.txt
 ```
 
 ⚠️ To reproduce: you must scrape reviews yourself (01_collect_reviews.ipynb) because raw data is not stored in the repo.
+
+## 📂 Project Structure
