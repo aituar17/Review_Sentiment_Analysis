@@ -7,7 +7,7 @@ I collected thousands of reviews, applied sentiment analysis using VADER, and ex
 The goal is to understand user sentiment patterns, identify pain points, and highlight regional differences in LinkedIn’s mobile app experience.
 
 ## 📊 Dataset
-- **Source:** [Kaggle E-commerce Data](https://play.google.com/store/apps/details?id=com.linkedin.android&pli=1)
+- **Source:** [Google Play Store](https://play.google.com/store/apps/details?id=com.linkedin.android&pli=1)
 - **App:** LinkedIn (Android)
 - **Countries:** US, UK, Italy, Finland, Kazakhstan
 - **Fields collected:** `reviewId`, `userName`, `rating`, `date`, `review`, `developer reply`, `country`
