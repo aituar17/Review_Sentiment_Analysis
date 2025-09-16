@@ -41,3 +41,14 @@ The goal is to understand user sentiment patterns, identify pain points, and hig
     - Multi-language sentiment models
     - Topic modeling (LDA/BERT) for deeper insights
     - Time-series analysis of sentiment trends
+ 
+## ⚙️ Installation
+Clone this repository and install dependencies:
+
+```bash
+git clone https://github.com/aituar17/Review_Sentiment_Analysis.git
+cd Review_Sentiment_Analysis
+pip install -r requirements.txt
+```
+
+⚠️ To reproduce: you must scrape reviews yourself (01_collect_reviews.ipynb) because raw data is not stored in the repo.
