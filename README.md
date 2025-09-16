@@ -46,8 +46,11 @@ The goal is to understand user sentiment patterns, identify pain points, and hig
 - **Kazakhstan (negative):** *login*, *verification*
 
 #### Visuals:
-#### Sentiment Distribution
-#### Sentiment Distribution by Country
+##### Sentiment Distribution
+![Sentiment Distribution](images/sentiment_distribution.png)
+
+##### Sentiment Distribution by Country
+![Sentiment Distribution by Country](images/sentiment_dist_by_country.png)
 
 ## 💡 Business Implications
 - **Login/verification issues** remain a global frustration.
