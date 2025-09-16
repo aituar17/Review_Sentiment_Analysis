@@ -37,14 +37,6 @@ The goal is to understand user sentiment patterns, identify pain points, and hig
 - **Finland:** Fewer reviews, but more neutral/positive
 - **Kazakhstan:** Small sample, skewed toward negative (login/verification issues)
 
-### Country-specific Themes
-#### Examples (based on top words analysis):
-- **US (negative):** *login*, *crash*, *notification*
-- **UK (positive):** *network*, *job*, *easy*
-- **Italy (negative):** *accesso*, *bug*, *annuncio*
-- **Finland (positive):** *jobs*, *useful*, *simple*
-- **Kazakhstan (negative):** *login*, *verification*
-
 #### Visuals:
 ##### Sentiment Distribution
 ![Sentiment Distribution](images/sentiment_distribution.png)
