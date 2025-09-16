@@ -34,3 +34,10 @@ The goal is to understand user sentiment patterns, identify pain points, and hig
 - **Positive reviews** highlight LinkedIn’s networking and job search features.
 - **Regional differences** suggest targeted improvements (e.g., stability in Italy, smoother sign-ins in Kazakhstan).
 
+## ⚖️ Limitations & Next Steps
+- Reviews are **self-selected** → may not represent all users.
+- Language bias: scraping was in English, so some Italian/Kazakh reviews may be underrepresented.
+- Future extensions:
+    - Multi-language sentiment models
+    - Topic modeling (LDA/BERT) for deeper insights
+    - Time-series analysis of sentiment trends
