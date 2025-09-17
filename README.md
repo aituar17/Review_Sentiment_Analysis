@@ -30,20 +30,10 @@ You can re-run `01_collect_reviews.ipynb` to scrape reviews yourself.
   
 ## 📈 Results & Insights
 ### Overall Sentiment Distribution
-- The majority of reviews are **positive**, but a notable portion are **negative**, often mentioning login, crashes, and notifications.
-
-### Sentiment by Country
-- **US & UK:** Similar distribution, majority positive
-- **Italy:** Higher share of negative reviews, often about access/login
-- **Finland:** Fewer reviews, but more neutral/positive
-- **Kazakhstan:** Small sample, skewed toward negative (login/verification issues)
-
-#### Visuals:
-##### Sentiment Distribution
-![Sentiment Distribution](images/sentiment_distribution.png)
-
-##### Sentiment Distribution by Country
-![Sentiment Distribution by Country](images/sentiment_dist_by_country.png)
+![Overall_Sentiment_Distribution](images/sentiment_distribution.png)
+- ~68% **positive**, ~15% **negative**, ~17% **neutral**
+- Positive reviews often highlight networking and job features.
+- Negative reviews commonly mention **login issues, bugs, and app crashes**.
 
 ## 💡 Business Implications
 - **Login & stability issues** drive a large portion of negative sentiment → critical area for improvement.
@@ -70,3 +60,17 @@ pip install -r requirements.txt
 ⚠️ To reproduce results, run `01_collect_reviews.ipynb` to fetch fresh reviews.
 
 ## 📂 Project Structure
+```plaintext
+Review_Sentiment_Analysis/
+├── data/ # Dataset folder (not uploaded to GitHub due to size; see data/README.md)
+├── images/ # Saved plots for README 
+│ └── sentiment_distribution.png
+│ └── sentiment_over_time.png
+│ └── sentiment_by_rating.png
+├── notebooks/ # Jupyter notebooks with full scraping and analysis
+│ └── 01_collect_reviews.ipynb
+│ └── 02_sentiment_analysis.ipynb
+├── .gitignore # Ignore large files (e.g., dataset)
+├── README.md # Project documentation
+└── requirements.txt # Dependencies for reproducibility
+```
