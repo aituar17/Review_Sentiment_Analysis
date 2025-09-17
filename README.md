@@ -1,15 +1,15 @@
 # 📱 Review_Sentiment_Analysis
 
 ## 📌 Project Overview
-This project analyzes Google Play Store reviews of the LinkedIn app across five countries (US, UK, Italy, Finland, Kazakhstan).
-I collected thousands of reviews, applied sentiment analysis using VADER, and explored country-specific themes by examining the most frequent words in positive and negative reviews.
+This project analyzes **10,000 Google Play Store reviews** of the LinkedIn Android app (US, English only).
+I collected reviews using the `google-play-scraper` package, applied sentiment analysis with **VADER (NLTK)**, and visualized user sentiment trends.
 
-The goal is to understand user sentiment patterns, identify pain points, and highlight regional differences in LinkedIn’s mobile app experience.
+The goal is to understand **user sentiment patterns**, identify **pain points**, and highlight how sentiment aligns with **star ratings and time**.
 
 ## 📊 Dataset
 - **Source:** [Google Play Store](https://play.google.com/store/apps/details?id=com.linkedin.android&pli=1)
 - **App:** LinkedIn (Android)
-- **Countries:** US, UK, Italy, Finland, Kazakhstan
+- **Scope:** 10,000 reviews (🇺🇸 US, English only)
 - **Fields collected:** `reviewId`, `userName`, `rating`, `date`, `review`, `developer reply`, `country`
 - **Tools:** `google-play-scraper` Python package
 ⚠️ Raw data is excluded from GitHub for size/privacy.
