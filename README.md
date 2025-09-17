@@ -35,6 +35,18 @@ You can re-run `01_collect_reviews.ipynb` to scrape reviews yourself.
 - Positive reviews often highlight networking and job features.
 - Negative reviews commonly mention **login issues, bugs, and app crashes**.
 
+### Sentiment Over Time (Weekly Average)
+![Sentiment_Over_Time](images/sentiment_over_time.png)
+- Sentiment fluctuates weekly, with dips around late August and early September.
+- Indicates possible **impact of app updates** on user satisfaction.
+
+### Sentiment vs. Star Rating
+![Sentiment_By_Rating](images/sentiment_by_rating.png)
+- Strong alignment:
+    - **1★ reviews →** mostly negative sentiment
+    - **5★ reviews →** strongly positive
+- Confirms VADER sentiment scores are consistent with explicit ratings.
+
 ## 💡 Business Implications
 - **Login & stability issues** drive a large portion of negative sentiment → critical area for improvement.
 - **Networking and job-related features** are the app’s strongest drivers of positive sentiment.
